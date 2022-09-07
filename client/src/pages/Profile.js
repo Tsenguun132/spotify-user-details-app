@@ -57,7 +57,7 @@ const Profile = () => {
                 <p className="header__meta">
                   {playlists && (
                     <span>
-                      {playlists.total} Playlists
+                      {playlists.total} Playlist
                       {playlists.total !== 1 ? "s" : ""}
                     </span>
                   )}
