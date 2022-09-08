@@ -18,6 +18,14 @@ import {
   Playlist,
 } from "./pages";
 
+const Title = styled.h1`
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  font-size: var(--fz-xl);
+`;
+
 const StyledLogoutButton = styled.button`
   position: absolute;
   top: var(--spacing-sm);
@@ -88,11 +96,14 @@ function App() {
       <GlobalStyle />
       <header className="App-header">
         {!token ? (
-          <StyledLoginContainer>
-            <StyledLoginButton href="http://localhost:8888/login">
-              Log in to Spotify
-            </StyledLoginButton>
-          </StyledLoginContainer>
+          <>
+            <StyledLoginContainer>
+              <StyledLoginButton href="http://localhost:8888/login">
+                Log in to Spotify
+              </StyledLoginButton>
+              <Title>Built by Tsenguun :)</Title>
+            </StyledLoginContainer>
+          </>
         ) : (
           <>
             <StyledLogoutButton onClick={logout}>Log out</StyledLogoutButton>
