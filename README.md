@@ -2,6 +2,10 @@
 
 *A full stack web app for visualizing users spotify data*
 
+## Link
+
+[Spotify Rundown](https://spotify-rundown.herokuapp.com/)
+
 # Tech Stack and screenshots
 
 <table border="0">
@@ -37,11 +41,6 @@ There's two methods to run the app. Either by the link provided or running it lo
 I have an demo account should you wish to explore the app. Just send me a quick email and ill send you the demo account.
 
 ## Running the app
-
-### Link
-
-[Spotify Rundown](https://spotify-rundown.herokuapp.com/)
-
 ## Local Installation & Set Up
 
 1. Register a Spotify App in your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and add `http://localhost:8888/callback` as a Redirect URI in the app settings
