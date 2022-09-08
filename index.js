@@ -14,7 +14,12 @@ const PORT = process.env.PORT || 8888;
 app.use(express.static(path.resolve(__dirname, "/client/build")));
 
 app.get("/", (req, res) => {
-  res.send("Hello!");
+  const data = {
+    name: "hello",
+    isMe: true,
+  };
+
+  res.json(data);
 });
 
 /**
@@ -80,7 +85,7 @@ app.get("/callback", (req, res) => {
           expires_in,
         });
 
-        res.redirect(`${FRONTEND_URI}/?${queryParams}`);
+        res.redirect(`${FRONTEND_URI}?${queryParams}`);
       } else {
         res.redirect(`/?${querystring.stringify({ error: "invalid_token" })}`);
       }
