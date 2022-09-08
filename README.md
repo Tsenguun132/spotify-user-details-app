@@ -1,5 +1,3 @@
-# spotify-user-details-app
-
 # Spotify Rundown App
 
 There's two methods to run the app. Either by the link provided below or running it locally.
