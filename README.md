@@ -1,10 +1,40 @@
-# spotify-user-details-app
-
 # Spotify Rundown App
 
-There's two methods to run the app. Either by the link provided below or running it locally.
+*A full stack web app for visualizing users spotify data*
 
-I have an demo account should you like to try out the app. Just send me a quick email and ill send you the demo account.
+# Tech Stack and screenshots
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Frontend</b></td>
+    <td><b style="font-size:30px">Backend</b></td>
+ </tr>
+ <tr>
+    <td><li>React (with hooks)</li>
+    <li>Styled Components</li>
+    <li>React Router</li>
+    </td>
+    <td>
+    <li>Node.js</li>
+    <li>Express</li>
+    <li>Heroku</li>
+    </td>
+ </tr>
+</table>
+
+Built with a bunch of technologies, but to name a few,
+
+* [Spotify Web Api](https://developer.spotify.com/documentation/web-api/)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Express](https://expressjs.com/)
+* [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+* [Styled Components](https://styled-components.com/)
+
+# Guide
+
+There's two methods to run the app. Either by the link provided or running it locally with the guide below.
+
+I have an demo account should you wish to explore the app. Just send me a quick email and ill send you the demo account.
 
 ## Running the app
 
