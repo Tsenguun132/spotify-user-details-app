@@ -18,6 +18,11 @@ import {
   Playlist,
 } from "./pages";
 
+const LOGIN_URI =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:8888/login"
+    : "https://spotify-rundown.herokuapp.com/login";
+
 const Title = styled.h1`
   position: absolute;
   top: 0;
@@ -98,7 +103,7 @@ function App() {
         {!token ? (
           <>
             <StyledLoginContainer>
-              <StyledLoginButton href="http://localhost:8888/login">
+              <StyledLoginButton href={LOGIN_URI}>
                 Log in to Spotify
               </StyledLoginButton>
               <Title>Built by Tsenguun :)</Title>
