@@ -26,7 +26,7 @@ _A full stack web app for visualizing users spotify data_
  </tr>
 </table>
 
-Built with a bunch of technologies, but to name a few,
+Built with but not limited to,
 
 - [Spotify Web Api](https://developer.spotify.com/documentation/web-api/)
 - [Create React App](https://github.com/facebook/create-react-app)
