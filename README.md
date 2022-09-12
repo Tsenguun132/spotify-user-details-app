@@ -70,4 +70,4 @@ I have an demo account should you wish to explore the app. Just send me a quick 
 
 # Status
 
-The app is currently in development mode which means in order to access the application through your own spotify account. I would need add your spotify account in the Users and Access tab of development mode. I've requested an extension which means should they approve my request, i will not be limited to manually adding users in the test mode and anyone would be able to access it or running it locally.
+The app is currently in development mode which means in order to access the application through your own spotify account. I would need add your spotify account in the Users and Access tab of development mode. I've requested an extension which means should they approve my request, i will not be limited to manually adding users in the test mode and anyone would be able to access it or by run it locally.
