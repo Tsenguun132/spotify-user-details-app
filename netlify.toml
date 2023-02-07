@@ -1,0 +1,3 @@
+[build]
+ base = "spotify-rundown"
+ command = "CI= npm run build"
