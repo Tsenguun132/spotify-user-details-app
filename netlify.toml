@@ -1,4 +1,3 @@
 [build]
  base = "client"
- command = "CI= npm run build"
  publish = "build"
