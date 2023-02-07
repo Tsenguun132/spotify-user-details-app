@@ -1,4 +1,4 @@
 [build]
- base = "spotify-rundown"
+ base = "client"
  command = "CI= npm run build"
  publish = "build"
